@@ -1,0 +1,74 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4e73df;
+  background-image: linear-gradient(180deg,#4e73df 10%,#224abe 100%);
+  height: 100vh;
+  width: 100vw;
+
+  .loginCard{
+    height: 90vh;
+    width: 70vw;
+    border-radius: 10px;
+    display: flex;
+
+    .img{
+      background-image: url('https://source.unsplash.com/K4mSJ7kc0As/600x800');
+      width: 50%;
+      height: 100%;
+      background-size: cover;
+    }
+    .cardContent{
+      padding: 10vh 10vh;
+      display: flex;
+      flex-direction: column;
+      // justify-content: space-around;
+      // align-items: center;
+      width: 60%;
+      height: 100%;
+
+      .heading{
+        align-self: center;
+        margin: 2vh 0;
+        font-size: 1.5rem;
+      }
+      .input{
+        margin: 2vh 0;
+        // max-height: 1rem;
+        border-radius: 500px;
+      }
+      .rememberMe{
+
+      }
+      .loginButton{
+        background-color: #224abe;
+        color: white;
+        margin: 1vh 0;
+
+      }
+      .googleButton{
+        background-color: #ea4335;
+        color: white;
+        margin: 1vh 0;
+      }
+      .facebookButton{
+        background-color: #3b5998;
+        color: white;
+        margin: 1vh 0;
+
+      }
+      .divider{
+        height: 0.5px;
+        width: 100%;
+        background-color: grey;
+        margin: 1vh 0;
+
+      }
+      .links{
+        align-self: center;
+      }
+    }
+  }
+
+}
